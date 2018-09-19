@@ -191,12 +191,13 @@ Instead of fitting a single Gaussian, we can fit a \textit{mixture} of Gaussians
 \begin{align*}
 p(x) = \sum_{k=1}^{K} \pi_k \mathcal{N} (x | \mu_k, \Sigma_k)
 \end{align*}
-Where $\pi_k$ is the probability that an observation belongs to cluster $k$. 
+Where $\pi_k$ is the probability that an observation belongs to cluster $k$. \\
+This is a Gaussian mixture model (GMM)
 \end{frame}
 
 \begin{frame}
 \frametitle{Deriving the Model}
-	To be able to estimate $\pi_k$, let us define a $K$-dimensional vector \textbf{z}, which is 1 if an observation is in group $k$ and 0 otherwise.\\
+	To be able to estimate $\pi_k$, let us define a $K$-dimensional vector \textbf{z}, which is 1 if an observation is in group $k$ and 0 otherwise. \textbf{z} is a latent variable - deriving the model this way will be of use later.\\
 	\begin{align*}
 	p(z_k = 1) = \pi_k
 	\end{align*}
@@ -211,6 +212,92 @@ Where $\pi_k$ is the probability that an observation belongs to cluster $k$.
  \begin{frame}
  \frametitle{Deriving the Model}
  
+ 	The conditional distribution $(\mathbf{x} | \mathbf{z})$ is then:
+
+ 	\begin{align*}
+ 	p(\mathbf{x}|\mathbf{z}) = \prod_{k = 1}^{K} \mathcal{N}(\mathbf{x} | \mu_k, \Sigma_k)^{z_k}
+ 	\end{align*}
+ 	
+ 	Marginalizing the distribution over $\mathbf{z}$ returns the original formulation:
+ 	
+ 	\begin{align*}
+ 	p(x) = \sum_{k=1}^{K} \pi_k \mathcal{N} (x | \mu_k, \Sigma_k)
+ 	\end{align*}
+ 	
+ 	While this seems like a useless exercise, we can now work with the joint distribution of our observations and the latent variable, $p(\mathbf{x}|\mathbf{z})$, which will make estimation considerably easier.
+ 
  \end{frame}
+
+\begin{frame}
+\frametitle{More for Later}
+Another important quantity for later will be $\gamma(z_k)$.\\
+For now, think of $\pi_k$ as the \textit{prior} probability of group membership. We are also interested in the posterior probability ($p(z_k = 1|x) $), which can be calculated using Bayes' Rule:
+
+\begin{align*}
+  \frac{p(z_k = 1) p(x|z_k =1 )}{\sum_{j = 1}^{k} p(z_j = 1) p(x|z_j=1)}\\
+\end{align*}
+
+Do this terms look familiar? How would you put this in terms of the joint PDF we just derived?
+\end{frame}
+
+\begin{frame}
+	\frametitle{Attempting MLE}
+	The log-likelihood of the GMM is given by:
+	\begin{align*}
+	ln\; p(x|\pi, \mu, \Sigma) = \sum_{n=1}^{N} ln\{\sum_{k=1}^{k} (x_n | \mu_k, \Sigma_k) \}
+	\end{align*}
+	What do you notice is strange about this log-likelihood compared to ones we've seen before?
+\end{frame}
+
+\begin{frame}
+\frametitle{Attempting MLE}
+	In the log likelihood of the GMM, the logarithm does not act directly on the Gaussian distribution. When we set the derivatives of likelihood to $0$ in order to maximize the parameters, this results in there not being a closed form solution.
+	
+	\begin{align*}
+	 0&= -\sum_{n=1}^{N} \gamma(z_{nk}) \Sigma_k(x_n - \mu_k)
+	\end{align*}
+	
+	Where the mean of group $k$ is the mean of each observation in the group, weighted by the posterior probability of its membership in that group:
+	\begin{align*}
+		 \mu_k &= \frac{1}{N_k} \sum_{n=1}{N} \gamma(z_{nk})x_n \\
+		 N_k &= \sum_{n=1} \gamma{z_{nk}} = \text{\# of points in cluster k}
+	\end{align*}
+	
+\end{frame}
+
+\begin{frame}
+\frametitle{Attempting MLE}	
+	Similarly, the covariance is given by:
+	\begin{align*}
+	\Sigma_k = \frac{1}{N_k} \sum_{n=1}{N} \gamma(z_{nk})(x_n - \mu_k)(x_n - \mu_k)^\intercal
+	\end{align*}
+	And the mixing coefficients are (intuitively):
+	\begin{align*}
+	\pi_k = \frac{N_k}{N}
+	\end{align*}
+\end{frame}
+
+\begin{frame}
+\frametitle{Problems with MLE}
+\begin{itemize}
+	\item As can be seen from the previous partial derivatives, the mean and variance of the GMM estimates depend on the posterior probabilities, which themselves depend on the mean and variance. Therefore, there is not a closed form solution.
+	\item Because we now have multiple components, a situation can arise where a component collapses on a single point when an observation is equal to the component mean, contributing infinitely to the log likelihood:
+	\begin{align*}
+	&\mathcal{N}(x_n|\mu_k, \Sigma_j) = \frac{1}{2\pi^{\frac{1}{2}}}\frac{1}{\sigma_j}\\ 
+	&\lim_{\sigma_j \to \infty} = \infty
+	\end{align*}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Problems with MLE}
+	\begin{itemize}
+		\item MLE also suffers from an \textit{identifiability} issue: in a $K$ component mixture, there are $K!$ possible solutions for assigning $K$ parameters to $K$ components; for any chosen parameter in the $\pi_k$ parameter space there are $k-1!$ points that produce the exact same distribution
+		\item This creates a multimodal distribution of the log likelihood in which there is no unique solution; more generally for all latent variable models, this is known as \textit{label nonidentifiability}
+	\end{itemize}
+\end{frame}
+
+\section{Expectation-Maximization Algorithm}
 
 \end{document}
