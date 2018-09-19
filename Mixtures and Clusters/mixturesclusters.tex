@@ -3,6 +3,7 @@
 
 
 \usepackage{amsmath,amssymb,amsthm} 
+\usepackage{caption}
 \usepackage{gensymb}
 \usepackage{preview}
 \usepackage{bm}
@@ -125,6 +126,8 @@
  
 \end{frame}
 
+\section{Clustering Problems}
+
 \begin{frame}
 	\frametitle{Problems with Clustering}
 	\begin{itemize}
@@ -146,9 +149,68 @@
 \begin{frame}
 \frametitle{Problems cont.}
 
-
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{clusterplot}
+	\caption{My Cluster Plot}
+	\label{fig:clusterplot}
+\end{figure}
 
 \end{frame}
+
+\section{Mixture Models: Basics}
+
+\begin{frame}
+\frametitle{Mixture Models: Motivation}
+	What if instead of "hard" cluster assignments, we could assign a probability that cases belong to a particular group?\\
+	That is precisely what \textit{mixture models} are intended to do!\\
+	Mixture models allow observations to belong to different distributions - either different parameterizations of the same distribution, or different distributions entirely.\\
+	This allows us to:
+	\begin{itemize}
+		\item Sort cases into groups, much like cluster models, but do so in a way that quantifies uncertainty
+		\item Estimate a model in the same step as the grouping, which most out-of-the-box clustering packages do not do
+		\item Work with data that has a multimodal distribution without having to discard a substantial amount of variation. 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Motivating Example: Old Faithful}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth,]{faithfulplot}
+		\caption*{}
+		\label{fig:faithfulplot}
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}
+\frametitle{Motivating Example: Old Faithful}
+Clearly, this data appears to be normally distributed, but not in a single normal distribution.\\
+Instead of fitting a single Gaussian, we can fit a \textit{mixture} of Gaussians of the following form:
+\begin{align*}
+p(x) = \sum_{k=1}^{K} \pi_k \mathcal{N} (x | \mu_k, \Sigma_k)
+\end{align*}
+Where $\pi_k$ is the probability that an observation belongs to cluster $k$. 
+\end{frame}
+
+\begin{frame}
+\frametitle{Deriving the Model}
+	To be able to estimate $\pi_k$, let us define a $K$-dimensional vector \textbf{z}, which is 1 if an observation is in group $k$ and 0 otherwise.\\
+	\begin{align*}
+	p(z_k = 1) = \pi_k
+	\end{align*}
+	Or alternatively, since this is a 1-of-K vector:
+	\begin{align*}
+	p(z)  = \prod_{k = 1}^{K} \pi_k^{z_k}
+	\end{align*}
+	%What must be true of pi?
+
+\end{frame}
+
+ \begin{frame}
+ \frametitle{Deriving the Model}
  
+ \end{frame}
 
 \end{document}

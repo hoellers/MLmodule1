@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.23)  18 SEP 2018 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.23)  19 SEP 2018 09:51
 entering extended mode
 **./mixturesclusters.tex
 (mixturesclusters.tex
@@ -698,6 +698,26 @@ nded.sty)
 phin.sty)
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerouterthemeinf
 olines.sty))
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen190
+\captionmargin@=\dimen191
+\captionwidth=\dimen192
+\caption@tempdima=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
+)
+\c@ContinuedFloat=\count155
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\was\gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
@@ -707,7 +727,7 @@ Package: preview 2010/02/14 11.90 (AUCTeX/preview-latex)
 \sympureletters=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 9.
+ut line 10.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
 Package: bm 2016/07/07 v1.2b Bold Symbol Support (DPC/FMi)
@@ -723,15 +743,15 @@ Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count155
-\calc@Bcount=\count156
-\calc@Adimen=\dimen190
-\calc@Bdimen=\dimen191
+\calc@Acount=\count156
+\calc@Bcount=\count157
+\calc@Adimen=\dimen197
+\calc@Bdimen=\dimen198
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count157
+\calc@Ccount=\count158
 \calc@Cskip=\skip59
 )
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
@@ -741,15 +761,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count158
-\l_MT_multwidth_dim=\dimen192
+\g_MT_multlinerow_int=\count159
+\l_MT_multwidth_dim=\dimen199
 \origjot=\skip60
-\l_MT_shortvdotswithinadjustabove_dim=\dimen193
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen194
-\l_MT_above_intertext_sep=\dimen195
-\l_MT_below_intertext_sep=\dimen196
-\l_MT_above_shortintertext_sep=\dimen197
-\l_MT_below_shortintertext_sep=\dimen198
+\l_MT_shortvdotswithinadjustabove_dim=\dimen256
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen257
+\l_MT_above_intertext_sep=\dimen258
+\l_MT_below_intertext_sep=\dimen259
+\l_MT_above_shortintertext_sep=\dimen260
+\l_MT_below_shortintertext_sep=\dimen261
 )
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
@@ -792,8 +812,8 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: russian 2017/08/12 1.3j Russian support for the Babel system
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count159
-\U@D=\dimen199
+\babel@savecnt=\count160
+\U@D=\dimen262
 LaTeX Info: Redefining \textlatin on input line 1448.
 )
 
@@ -1341,12 +1361,12 @@ File: t2aenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 ))
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.sty
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
-\csq@reset=\count160
-\csq@gtype=\count161
-\csq@glevel=\count162
-\csq@qlevel=\count163
-\csq@maxlvl=\count164
-\csq@tshold=\count165
+\csq@reset=\count161
+\csq@gtype=\count162
+\csq@glevel=\count163
+\csq@qlevel=\count164
+\csq@maxlvl=\count165
+\csq@tshold=\count166
 \csq@ltx@everypar=\toks45
 
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.def
@@ -1368,27 +1388,27 @@ Package csquotes Info: ... found 'babel' package.
 (mixturesclusters.aux)
 \openout1 = `mixturesclusters.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 25.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 25.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1426,16 +1446,16 @@ LaTeX Font Info:    ... okay on input line 24.
 
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count166
-\scratchdimen=\dimen256
+\scratchcounter=\count167
+\scratchdimen=\dimen263
 \scratchbox=\box53
-\nofMPsegments=\count167
-\nofMParguments=\count168
+\nofMPsegments=\count168
+\nofMParguments=\count169
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count169
-\MPscratchDim=\dimen257
-\MPnumerator=\count170
-\makeMPintoPDFobject=\count171
+\MPscratchCnt=\count170
+\MPscratchDim=\dimen264
+\MPnumerator=\count171
+\makeMPintoPDFobject=\count172
 \everyMPtoPDFconversion=\toks47
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1452,7 +1472,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 25.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1460,80 +1480,80 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count172
+\c@section@level=\count173
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 (mixturesclusters.out) (mixturesclusters.out)
 \@outlinefile=\write5
 \openout5 = `mixturesclusters.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 24.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 24.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 25.
 LaTeX Font Info:    Encoding `OT1' has changed to `T2A' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 24
+(Font)              `pureletters' in the math version `normal' on input line 25
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/mathkerncmss/m/sl --> T2A/cmss/m/it on input line 2
-4.
+5.
 LaTeX Font Info:    Encoding `OT1' has changed to `T2A' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 24.
+(Font)              `pureletters' in the math version `bold' on input line 25.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/bx/sl --> T2A/cmss/m/it on input line 
-24.
+25.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 24.
+(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 24.
+(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 24.
+(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 24.
+(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 24.
+(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 24.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 24.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 24.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 24.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmr/bx/n on input line 24.
+(Font)                  OT1/cmss/bx/n --> T2A/cmr/bx/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/bx/n --> T2A/cmss/bx/n on input line 24.
+(Font)                  T2A/cmss/bx/n --> T2A/cmss/bx/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 24.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 24.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/bx/n on input line 24.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 24.
+(Font)                  T2A/cmtt/m/n --> T2A/cmtt/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 25.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 24
+(Font)              `pureletters' in the math version `normal' on input line 25
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
-4.
+5.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 24.
+(Font)              `pureletters' in the math version `bold' on input line 25.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T2A/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-24.
+25.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 24.
+ut line 25.
 
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-basi
 c-dictionary-English.dict
@@ -1559,21 +1579,23 @@ Dictionary: translator-numbers-dictionary, Language: English
 rem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \celsius on input line 24.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 24.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \celsius on input line 25.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 25.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 24.
-Package gensymb Info: Using \Omega for \ohm on input line 24.
+LaTeX Info: Redefining \ohm on input line 25.
+Package gensymb Info: Using \Omega for \ohm on input line 25.
 
 Package gensymb Warning: Not defining \micro.
 
-Package csquotes Info: Redefining character " on input line 24.
+Package csquotes Info: Redefining character " on input line 25.
 (mixturesclusters.nav)
-Overfull \hbox (8.49736pt too wide) in paragraph at lines 24--24
+Overfull \hbox (8.49736pt too wide) in paragraph at lines 25--25
  [][][][]  
  []
 
@@ -1591,10 +1613,10 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [2
 
-] <dahl.jpg, id=77, 311.66437pt x 197.23688pt>
+] <dahl.jpg, id=87, 311.66437pt x 197.23688pt>
 File: dahl.jpg Graphic file (type jpg)
  <use dahl.jpg>
-Package pdftex.def Info: dahl.jpg used on input line 53.
+Package pdftex.def Info: dahl.jpg used on input line 54.
 (pdftex.def)             Requested size: 239.60567pt x 151.63509pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
@@ -1618,17 +1640,17 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+LaTeX Font Info:    Try loading font information for U+msa on input line 91.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+LaTeX Font Info:    Try loading font information for U+msb on input line 91.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 90.
+line 91.
 
 (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1mathkern
 cmss.fd
@@ -1655,14 +1677,14 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [8
 
-] <bishopkmeans.jpg, id=247, 456.70625pt x 395.4775pt>
+] <bishopkmeans.jpg, id=256, 456.70625pt x 395.4775pt>
 File: bishopkmeans.jpg Graphic file (type jpg)
 
 <use bishopkmeans.jpg>
-Package pdftex.def Info: bishopkmeans.jpg used on input line 126.
+Package pdftex.def Info: bishopkmeans.jpg used on input line 127.
 (pdftex.def)             Requested size: 239.60567pt x 207.47794pt.
 
-Overfull \vbox (12.72208pt too high) detected at line 126
+Overfull \vbox (9.1781pt too high) detected at line 127
  []
 
 
@@ -1679,12 +1701,50 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [10
 
-]
+] <clusterplot.pdf, id=311, 794.97pt x 614.295pt>
+File: clusterplot.pdf Graphic file (type pdf)
+ <use clusterplot.pdf>
+Package pdftex.def Info: clusterplot.pdf used on input line 159.
+(pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
+
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [11
+
+ <./clusterplot.pdf>]
+Overfull \hbox (8.49736pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[12
+
+] <faithfulplot.pdf, id=372, 794.97pt x 614.295pt>
+File: faithfulplot.pdf Graphic file (type pdf)
+ <use faithfulplot.pdf>
+Package pdftex.def Info: faithfulplot.pdf used on input line 185.
+(pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
+
+Overfull \hbox (8.49736pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
+ <./faithfulplot.pdf>]
+Overfull \hbox (8.49736pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
+
+]
+Overfull \hbox (8.49736pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
 
 ]
 \tf@nav=\write6
@@ -1696,19 +1756,19 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `mixturesclusters.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
  (mixturesclusters.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
 Package rerunfilecheck Info: File `mixturesclusters.out' has not changed.
-(rerunfilecheck)             Checksum: BCEC93BAC19A7EF7268F4EBF35D41807;52.
+(rerunfilecheck)             Checksum: BABAC046EC6EF91CD3D70D2350C20471;165.
  ) 
 Here is how much of TeX's memory you used:
- 20081 strings out of 493333
- 369776 string characters out of 3139194
- 463414 words of memory out of 3000000
- 23068 multiletter control sequences out of 15000+200000
+ 21149 strings out of 493333
+ 389157 string characters out of 3139194
+ 480951 words of memory out of 3000000
+ 24116 multiletter control sequences out of 15000+200000
  31714 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,57p,804b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1727,9 +1787,9 @@ les/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1000.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/cm-super/sfss1095.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/cm-super/sfss1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/cm-super/sfsx1095.pfb>
-Output written on mixturesclusters.pdf (11 pages, 332562 bytes).
+Output written on mixturesclusters.pdf (15 pages, 520072 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 516 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
