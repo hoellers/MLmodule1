@@ -300,4 +300,50 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 
 \section{Expectation-Maximization Algorithm}
 
+\section{Beyond GMM}
+
+\begin{frame}
+\frametitle{Non-Gaussian Mixtures}
+	Mixture models can be generalized to fit any distribution:
+	\begin{align*}
+	p(x) = \sum_{k=1}^{K} \pi_k p (x | \theta)
+	\end{align*}
+	
+	Or even to mix \textit{different} distributions:
+	
+	\begin{align*}
+	p(x) = \sum_{k=1}^{K} \pi_k p (x | z_i = k, \theta)
+	\end{align*}
+	
+	Or even mixtures of non-parametric distributions - the mixing coefficient places no restrictions on the form of the distribution after it. 
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Mixtures of Bernoullis}
+	Another common mixture is a mixture of Bernoulli distributions, also called \textit{latent class analysis}.\\
+	As a reminder, the Bernoulli distribution is:
+	\begin{align*}
+	p(x|\mu) = \prod_{n = 1}^{N} \mu_i^{x_i}(1 - \mu_i)^{x_i}
+	\end{align*}
+	
+	And a mixture of Bernoullis is:
+	
+	\begin{align*}
+		p(x|\mu, \pi = \sum_{k=1}^{K}p(x|\mu_k) 
+	\end{align*}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Mixtures of Bernoullis}
+	This yields the following expressions of the mean and variance:
+	\begin{align*}
+	\mathbb{E}(x)& = \sum_{k=1}^{K} \pi_k \mu_k \\
+	cov[x]  &= \sum_{k=1}^{K}  \pi_k (\Sigma_k + \mu_k \mu_k^{\intercal}) - \mathbb{E}(x)\mathbb{E}(x)^{\intercal}
+	\end{align*}
+	Where $\Sigma_{k}$ is the variance of a single Bernoulli component.\\
+	What do you notice about the variance? How is this an improvement on a single Bernoulli?
+\end{frame}
+
 \end{document}
