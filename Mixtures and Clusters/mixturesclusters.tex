@@ -203,9 +203,9 @@ This is a Gaussian mixture model (GMM)
 	\end{align*}
 	Or alternatively, since this is a 1-of-K vector:
 	\begin{align*}
-	p(z)  = \prod_{k = 1}^{K} \pi_k^{z_k}
+	p(\mathbf{z})  = \prod_{k = 1}^{K} \pi_k^{z_k}
 	\end{align*}
-	%What must be true of pi?
+	What must be true of $\mathbf{\pi}$
 
 \end{frame}
 
@@ -215,7 +215,7 @@ This is a Gaussian mixture model (GMM)
  	The conditional distribution $(\mathbf{x} | \mathbf{z})$ is then:
 
  	\begin{align*}
- 	p(\mathbf{x}|\mathbf{z}) = \prod_{k = 1}^{K} \mathcal{N}(\mathbf{x} | \mu_k, \Sigma_k)^{z_k}
+ 	p(x|z) = \prod_{k = 1}^{K} \mathcal{N}(\mathbf{x} | \mu_k, \Sigma_k)^{z_k}
  	\end{align*}
  	
  	Marginalizing the distribution over $\mathbf{z}$ returns the original formulation:
@@ -224,7 +224,7 @@ This is a Gaussian mixture model (GMM)
  	p(x) = \sum_{k=1}^{K} \pi_k \mathcal{N} (x | \mu_k, \Sigma_k)
  	\end{align*}
  	
- 	While this seems like a useless exercise, we can now work with the joint distribution of our observations and the latent variable, $p(\mathbf{x}|\mathbf{z})$, which will make estimation considerably easier.
+ 	While this seems like a useless exercise, we can now work with the joint distribution of our observations and the latent variable, $p(x|z)$, which will make estimation considerably easier.
  
  \end{frame}
 
