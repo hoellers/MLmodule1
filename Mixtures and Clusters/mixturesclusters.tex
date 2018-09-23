@@ -346,4 +346,64 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 	What do you notice about the variance? How is this an improvement on a single Bernoulli?
 \end{frame}
 
+\begin{frame}
+\frametitle{Mixtures of Bernoullis}
+	The log likelihood is then:
+	\begin{align*}
+	ln p(\mathbf{X}|\mathbf{\mu}, \mathbf{\pi}) = \sum_{n=1}^{N} ln (\sum_{k =1}^{K} \pi_k p(x_n|\mu_k))
+	\end{align*}
+	Does this produce a closed form solution?\\
+	Like GMM, does this have the potential to produce a singularity? Why or why not?
+\end{frame}
+
+\begin{frame}
+\frametitle{EM with LCA}
+	To use the EM algorithm on a mixture of Bernoulli's, we again introduce $z$ as latent mixture assignment. The conditional distribution $p(x|z, \mu)$ is then:
+	\begin{align*}
+	p(x|z, \mu) = \sum_{k=1}^{K} p(x|\mu_k)^{z_k}
+	\end{align*}
+	And the prior for $z$:
+	\begin{align*}
+	p(z|\mu) = \sum_{k=1}^{K} \pi_k^{z_k}
+	\end{align*}
+	Just like with the GMM, if we take the product of the conditional and the prior then marginalize out $z$, we get the original formulation back.
+\end{frame}
+
+\begin{frame}
+\frametitle{EM with LCA}
+	This then yields the complete-data log likelihood:
+	\begin{align*}
+	ln p(\mathbf{X}, \mathbf{Z}|\mathbf{\mu}, \mathbf{\pi}) = \sum_{n=1}^{N}\sum_{k=1}^{K} z_{nk} \{ln \pi_k + \sum_{i=1}^{D}[x_{ni} ln \mu_{ki} + (1 - x_{ni})ln(1-\mu_{ki})]\}
+	\end{align*}
+	How do we derive the E step from the complete data likelihood?
+\end{frame}
+
+\begin{frame}
+\frametitle{EM with LCA}
+	The E step evaluates the expectation for the latent variables w.r.t to the posterior distribution of $\mathbf{Z}$:
+	\begin{align*}
+	\mathbb{E}_{\mathbf{Z}}(.) = \gamma(z_{nk})\{ln \pi_k + \sum_{i=1}^{D}[x_{ni} ln \mu_{ki} + (1 - x_{ni})ln(1-\mu_{ki})]\}
+	\end{align*}
+	Where, just like with the GMM, the posterior is calculated using Bayes' rule:
+	\begin{align*}
+	\gamma(z_{nk}) =  \frac{\pi_k p(x_n|\mu_k)}{\sum_{j =1}^{K} \pi_j p(x_n | \mu_j)}
+	\end{align*}
+	What does the M step do after this?
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Putting It All Together}
+This suggests a generalized way to put together any mixture model for estimation with EM:
+\begin{enumerate}
+	\item Create a PDF, $p(x)$, that includes a mixing coefficient $\pi$
+	\item Re-conceptualize that PDF in terms of a latent variable, $z$
+	\item Find the complete data log-likelihood
+	\item Take the expectation of step 3 w.r.t.  to $Z$
+	\item Calculate the expression of the posterior of $Z$ using Baye's rule.
+	\item Run the EM algorithm, and hopefully get interesting results!
+\end{enumerate}
+Extra credit question: if you write your own EM algorithm based on the above, how can you check that it's working properly?
+\end{frame}
+
 \end{document}
