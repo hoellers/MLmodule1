@@ -219,10 +219,10 @@ This is a Gaussian mixture model (GMM)
  \begin{frame}
  \frametitle{Deriving the Model}
  
- 	The conditional distribution $(\mathbf{x} | \mathbf{z})$ is then:
+ 	The joint distribution $(\mathbf{x} | \mathbf{z})$ is then:
 
  	\begin{align*}
- 	p(x|z) = \prod_{k = 1}^{K} \mathcal{N}(\mathbf{x} | \mu_k, \Sigma_k)^{z_k}
+ 	p(x,z) = \prod_{n = 1}^{N} \prod_{k = 1}^{K} \pi_k^{z_{nk}} \mathcal{N}(x_n | \mu_k, \Sigma_k)^{z_nk}
  	\end{align*}
  	
  	Marginalizing the distribution over $\mathbf{z}$ returns the original formulation:
@@ -251,7 +251,7 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 	\frametitle{Attempting Vanilla MLE}
 	The log-likelihood of the GMM is given by:
 	\begin{align*}
-	ln\; p(x|\pi, \mu, \Sigma) = \sum_{n=1}^{N} ln\{\sum_{k=1}^{k} (x_n | \mu_k, \Sigma_k) \}
+	ln\; p(x|\pi, \mu, \Sigma) = \sum_{n=1}^{N} ln\bigg\{\sum_{k=1}^{K}\pi_k \mathcal{N}(x_n | \mu_k, \Sigma_k) \bigg\}
 	\end{align*}
 	What do you notice is strange about this log-likelihood compared to ones we've seen before?
 \end{frame}
@@ -311,7 +311,7 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 \frametitle{The Expectation-Maximization Algorithm}
 	\begin{itemize}
 		\item EM Algorithm allows us to approach MLE in a much easier way
-		\item However, as we will come to see later, the EM algorithm---or a certain interpretation of it---can also be used in Bayesian analysis, either to retrieve the MAP parameter estimates, or to retrieve the entire posterior, with variational inference
+		\item However, as we will come to see later, the EM algorithm---or a certain interpretation of it---can also be used in Bayesian analysis, either to retrieve the MAP parameter estimates, or to retrieve an approximation of the entire posterior, with variational inference
 		\item In general, we use it when we have latent variables (the collection of which, in line with terminology used with mixture models, is usually termed $\mathbf{Z}$)
 		\item We will exploit the existence of these latent variables to make finding parameter and latent variables estimates easier
 	\end{itemize}
