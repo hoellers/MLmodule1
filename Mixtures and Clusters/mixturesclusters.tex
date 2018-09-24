@@ -241,7 +241,7 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 \end{frame}
 
 \begin{frame}
-	\frametitle{Attempting MLE}
+	\frametitle{Attempting Vanilla MLE}
 	The log-likelihood of the GMM is given by:
 	\begin{align*}
 	ln\; p(x|\pi, \mu, \Sigma) = \sum_{n=1}^{N} ln\{\sum_{k=1}^{k} (x_n | \mu_k, \Sigma_k) \}
@@ -250,7 +250,7 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 \end{frame}
 
 \begin{frame}
-\frametitle{Attempting MLE}
+\frametitle{Attempting Vanilla MLE}
 	In the log likelihood of the GMM, the logarithm does not act directly on the Gaussian distribution. When we set the derivatives of likelihood to $0$ in order to maximize the parameters, this results in there not being a closed form solution.
 	
 	\begin{align*}
@@ -260,13 +260,13 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 	Where the mean of group $k$ is the mean of each observation in the group, weighted by the posterior probability of its membership in that group:
 	\begin{align*}
 		 \mu_k &= \frac{1}{N_k} \sum_{n=1}{N} \gamma(z_{nk})x_n \\
-		 N_k &= \sum_{n=1} \gamma{z_{nk}} = \text{\# of points in cluster k}
+		 N_k &= \sum_{n=1} \gamma({z_{nk}}) = \text{\# of points in cluster k}
 	\end{align*}
 	
 \end{frame}
 
 \begin{frame}
-\frametitle{Attempting MLE}	
+\frametitle{Attempting Vanilla MLE}	
 	Similarly, the covariance is given by:
 	\begin{align*}
 	\Sigma_k = \frac{1}{N_k} \sum_{n=1}{N} \gamma(z_{nk})(x_n - \mu_k)(x_n - \mu_k)^\intercal
@@ -300,6 +300,226 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 
 \section{Expectation-Maximization Algorithm}
 
+\begin{frame}
+\frametitle{The Expectation-Maximization Algorithm}
+	\begin{itemize}
+		\item EM Algorithm allows us to approach MLE in a much easier way
+		\item However, as we will come to see later, the EM algorithm---or a certain interpretation of it---can also be used in Bayesian analysis, either to retrieve the MAP parameter estimates, or to retrieve the entire posterior, with variational inference
+		\item In general, we use it when we have latent variables (the collection of which, in line with terminology used with mixture models, is usually termed $\mathbf{Z}$)
+		\item We will exploit the existence of these latent variables to make finding parameter and latent variables estimates easier
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Basics: Our Starting Point}
+Given the former:	
+	\begin{itemize}
+		\item We have a probabilistic model where we term all observed variables as $\mathbf{X}$, all latent variables as $\mathbf{Z}$, and all parameters as $\boldsymbol{\theta}$
+		\item We want to find the maximum likelihood estimates for 
+		\begin{align}
+			p(\mathbf{X}|\boldsymbol{\theta}) = \sum_{\mathbf{Z}}p(\mathbf{X},\mathbf{Z}|\boldsymbol{\theta}) 
+		\end{align}
+		Note: here we assume $\mathbf{Z}$ is discrete, but it doesn't have to be. What would change if it were continuous?
+		\item Let us assume that $	p(\mathbf{X}|\boldsymbol{\theta})$ cannot be maximized as is, and that maximizing the \textbf{complete data likelihood} $p(\mathbf{X},\mathbf{Z}|\boldsymbol{\theta})$ is more straightforward. Note that, as Sean said, we will not be able to maximize even this function directly, because of the interdependence of parameters and latent variables. 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Basics: Oh Goodness, This Isn't So Basic Anymore}
+Then let there be a distribution $q(\mathbf{Z})$ defined over the latent variables. For any choice of this distribution, it can be shown that
+		\begin{align}
+			\text{ln}p(\mathbf{X}|\boldsymbol{\theta}) =\mathcal{L}(q, \boldsymbol{\theta}) + \text{KL}(q\|p)
+		\end{align}
+where
+		\begin{align}
+			\mathcal{L}(q, \boldsymbol{\theta}) = \sum_{\mathbf{Z}}q(\mathbf{Z})\text{ln}\bigg\{\frac{p(\mathbf{X,  Z}|\boldsymbol{\theta})}{q(\mathbf{Z})}\bigg\} \label{eq:2}
+		\end{align}
+and
+	\begin{align}
+		\text{KL}(q\|p) = - \sum_{\mathbf{Z}}q(\mathbf{Z})\text{ln}\bigg\{\frac{p(\mathbf{Z|  X},\boldsymbol{\theta})}{q(\mathbf{Z})}\bigg\}
+	\end{align}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Basics: Functionals + Lower Bound of Marginal Likelihood}
+\begin{itemize}
+	\item Note that w.r.t the distribution $q(\mathbf{Z})$, $\mathcal{L}(q, \boldsymbol{\theta})$ is a \textit{functional}, that is, ``an operator that takes a function .... and returns and output value'' (Bishop 2006, 703). The ``value'' that maximizes a functional is a function. This idea is especially important in variational inference, which is built on the calculus of variations. W.r.t to $\theta$, $\mathcal{L}(q, \boldsymbol{\theta})$ is a function. 
+	\item Note also that $\text{KL}(q\|p)$ is the Kullback-Leibler divergence between our distribution $q(\mathbf{Z})$ and the posterior distribution $p(\mathbf{Z}|\mathbf{X}, \boldsymbol{\theta})$.
+	\item Because $\text{KL}(q\|p) \geq 0$, equalizing $0$ iff $q(\mathbf{Z}) = p(\mathbf{Z}|\mathbf{X}, \boldsymbol{\theta})$, this implies that $\mathcal{L}(q, \boldsymbol{\theta}) \leq \text{ln}p(\mathbf{X}|\boldsymbol{\theta})$
+	\item $\mathcal{L}(q, \boldsymbol{\theta})$ turns out to be the lower bound of 		$\text{ln}p(\mathbf{X}|\boldsymbol{\theta})$.  
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Decomposition in Picture Form}
+ \begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{decomposition}
+	\caption{Illustration of Decomposition of $	\text{ln}p(\mathbf{X}|\boldsymbol{\theta})$}
+	
+	\textit{Source:} Bishop (2006), pg. 451
+	\label{fig:decomposition}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Basics: The Steps}
+The EM algorithm is an algorithm with four steps, two of which are iterative:
+	\begin{enumerate}
+		\item We pick initial values for $\boldsymbol{\theta}^{old}$
+		\item In the E Step, using these initial values for $\theta$, we maximize the lower bound $\mathcal{L}(q, \boldsymbol{\theta}^{old})$ described in the previous slide, with respect to the function $q(\mathbf{Z})$. That is to say, we hold the $\theta$'s fixed and allow only the distributional form of $q(\mathbf{Z})$ to vary. This produces a new distribution $\mathcal{L}(q, \theta)$. 
+		\item In the M Step, we maximize this function with respect to the parameters $\boldsymbol{\theta}$, while holding $q(\mathbf{Z})$ constant. This produces new parameters $\boldsymbol{\theta}^{new}$.
+		\item We repeat Steps 2 and 3 (the E and M Steps) until some convergence criteria is satisfied. In other words, $\boldsymbol{\theta}^{new}$ becomes the $\theta$ that are fixed in Step 2, and so on. 
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Particulars: Something to Note}
+	\begin{itemize}
+		\item The EM algorithm is often described as having just two steps, but it is important to realize that it must be initialized (the choice of initial values can have consequences) and that you have to have some convergence tolerance, otherwise the algorithm could run forever. In addition, there are various convergence criteria that could be used.  
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Particulars: Where Does the Expectation Come In?}
+\begin{itemize}
+	\item Although E stands for expectation, this is something of a misnomer. You are really finding the distribution $q(\mathbf{Z})$ that maximizes the lower bound of the true ``likelihood'' (and in turn reduces the KL divergence between $q(\mathbf{Z})$ and $p(\mathbf{Z}|\mathbf{X}, \boldsymbol{\theta}^{old})$ to 0) when the parameters are fixed at a certain value. This really means that you are finding the parameters that make up this function. 
+	\item It turns out that, because it drives the KL divergence to 0, this distribution $q(\mathbf{Z}) = p(\mathbf{Z}|\mathbf{X}, \boldsymbol{\theta}^{old})$.
+	\item If we substitute this into \ref{eq:2}, we see that after the E step
+	\begin{align*}
+		\mathcal{L}(q,\boldsymbol{\theta}) = \sum_{\mathbf{Z}}p(\mathbf{Z}|\mathbf{X}, \boldsymbol{\theta}^{old})\text{ln}p(\mathbf{Z},\mathbf{X}| \boldsymbol{\theta}) - \sum_{\mathbf{Z}}p(\mathbf{Z}|\mathbf{X}, \boldsymbol{\theta}^{old})\text{ln}p(\mathbf{Z},\mathbf{X}| \boldsymbol{\theta}^{old})
+	\end{align*}
+	When it comes to taking the M step, we are optimizing this function w.r.t $\boldsymbol{\theta}$. As there are no $\boldsymbol{\theta}$'s in the second half of the function, this part is treated as a constant.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Particulars: Where Does the Expectation Come In?}
+\begin{itemize}
+	\item We then note that $\sum_{\mathbf{Z}}p(\mathbf{Z}|\mathbf{X}, \boldsymbol{\theta}^{old})\text{ln}p(\mathbf{Z},\mathbf{X}| \boldsymbol{\theta})$ is just the expectation of the complete data log-likelihood.
+	\item This function is termed, in alternative formulations of the EM algorithm, $\mathcal{Q}(\boldsymbol{\theta}, \boldsymbol{\theta}^{old})$
+	\item If we think through this, we can see that the E step, if we take a few shortcuts, just requires us to calculate the expectation of the complete data log-likelihood, which we then maximize in the M step. This explains the names---but we should recognize that there is a lot more going on in the background!   
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{E-Step in Picture Form}
+ \begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{e_step}
+	\caption{Visualization of E Step}
+	
+	\textit{Source:} Bishop (2006), pg. 452
+	\label{fig:e_step}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{M-Step in Picture Form}
+ \begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{m_step}
+	\caption{Visualization of M Step}
+	
+	\textit{Source:} Bishop (2006), pg. 452
+	\label{fig:m_step}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Putting it All Together in Picture Form}
+ \begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{em_algorithm}
+	\caption{Visualization of EM Algorithm Process}
+	
+	\textit{Source:} Bishop (2006), pg. 453
+	\label{fig:em_algorithm}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Particulars: The Intuition Behind Why The EM Monotonically Increases The Observed Data Log-Likelihood}
+As was shown in the previous slides, due to fact that $\mathcal{L}(q, \boldsymbol{\theta})$ is a lower bound on the , as we iterate the following string of inequalities becomes apparent:
+\begin{align}
+	\text{ln}p(\mathbf{X}|\boldsymbol{\theta}^{t}) = \mathcal{L}(q, \boldsymbol{\theta}^{t}) \leq \text{ln}p(\mathbf{X}|\boldsymbol{\theta}^{t+1}) = \mathcal{L}(q, \boldsymbol{\theta}^{t+1}) \leq \text{ln}p(\mathbf{X}|\boldsymbol{\theta}^{t+2})
+\end{align}
+In short, in each E step, we bring the lower bound as close as possible to the log likelihood. In each M step, we poke the log likelihood a bit further up the hill.\\
+
+This means that we are steadily increasing the log likelihood, and we keep doing so until the increases get so small that they are indistinguishable from zero---and that's what we call convergence, folks! \textbf{Calculating the log likelihood is a good way to catch errors and bugs: if it decreases, something has gone wrong.}
+\end{frame}
+
+\begin{frame}
+\frametitle{Issues with the MLE Version of EM Algorithm}
+	\begin{itemize}
+		\item As it has been explained here, we are still just doing MLE, really, as we are still just climbing a hill
+		\item MLE can overfit
+		\item MLE can fall into local maxima trap and is not guaranteed to find global maxima
+		\begin{itemize}
+			\item The EM algorithm needs to be initialized, so need to be careful with initial values, might have to start over various times
+		\end{itemize}
+		\item In particular, when it comes to Gaussian Mixture Models, MLE EM can find singularities, which is when a component has zero variance and a mean equal to one of the data points
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Not Just MLE}
+	\begin{itemize}
+		\item This brings us to the important realization that EM is just an algorithm
+		\item There are various ways of approaching it as a whole and the two steps individually
+		\item For example, in order to help with the issue identified in the previous slide, can take a more Bayesian approach and use MAP. 
+		\begin{itemize}
+			\item Simply add the log prior to the complete data log-likelihood
+			\item This does not change the E step and only impacts the M step
+		\end{itemize}
+		\item It is also possible to go ``fully Bayesian,'' which will lead us to variational inference! 
+	\end{itemize}
+\end{frame}
+
+\section{EM For Gaussian Mixture Models}
+
+\begin{frame}
+\frametitle{EM for Gaussian Mixture Models}
+We can apply the above discussion to find relatively easy parameter estimates for Gaussian Mixture Models in the following way:
+	\begin{enumerate}
+		\item Choose initial values for means $\boldsymbol{\mu}_k$, covariances $\boldsymbol{\Sigma}_{k}$, and mixing coefficients $\pi_k$
+		\item E Step: Using these parameter values, determine the posterior probability of membership for each observation (also known as \textit{responsibilities}, as mentioned earlier), with the following equation:
+		\begin{align}
+			\gamma(z_{nk}) = \frac{\pi_k\mathcal{N}(x_n|\boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k)}{\sum_{j = 1}^K \pi_j\mathcal{N}(x_n|\boldsymbol{\mu}_j, \boldsymbol{\Sigma}_j)}
+		\end{align} 
+		This equation can be derived from the expected complete data log-likelihood. See page 351 of Murphy (2012). 
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{EM for Gaussian Mixture Models}
+\begin{enumerate}
+	\setcounter{enumi}{2}
+	\item M Step: Using the responsibilities calculated in the E-Step, re-estimate the parameters. This will involve maximizing the expected complete data log-likelihood w.r.t each of the parameters in turn. The common thread that runs through the maximizing values is the responsibilities:
+	\begin{align}
+		\pi_k^{new} &= \frac{N_k}{N}\\
+		\boldsymbol{\mu}_k^{new} &= \frac{1}{N_k}\sum_{n=1}^N\gamma(z_{nk})x_n\\
+		\Sigma_k &= \frac{1}{N_k} \sum_{n=1}{N} \gamma(z_{nk})(x_n - \mu_k^{new})(x_n - \mu_k^{new})^\intercal
+	\end{align}
+	With 
+	\begin{align}
+		N_k &= \sum_{n=1} \gamma({z_{nk}}) = \text{\# of points in cluster k}
+	\end{align}
+	You've seen these already; we discussed them when we first talked about GMM. 
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{EM for Gaussian Mixture Models}
+\begin{enumerate}
+	\setcounter{enumi}{3}
+	\item Evaluate the log likelihood in order to be able to check convergence and for errors and bugs in the code. You can also check for convergence within the parameters themselves. If convergence has not been reached, return to Step 2 (the E Step). 
+\end{enumerate}
+\end{frame}
+
+
+
 \section{Beyond GMM}
 
 \begin{frame}
@@ -330,7 +550,7 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 	And a mixture of Bernoullis is:
 	
 	\begin{align*}
-		p(x|\mu, \pi = \sum_{k=1}^{K}p(x|\mu_k) 
+		p(x|\mu, \pi) = \sum_{k=1}^{K}p(x|\mu_k) 
 	\end{align*}
 \end{frame}
 
@@ -400,7 +620,7 @@ This suggests a generalized way to put together any mixture model for estimation
 	\item Re-conceptualize that PDF in terms of a latent variable, $z$
 	\item Find the complete data log-likelihood
 	\item Take the expectation of step 3 w.r.t.  to $Z$
-	\item Calculate the expression of the posterior of $Z$ using Baye's rule.
+	\item Calculate the expression of the posterior of $Z$ using Bayes' rule.
 	\item Run the EM algorithm, and hopefully get interesting results!
 \end{enumerate}
 Extra credit question: if you write your own EM algorithm based on the above, how can you check that it's working properly?
