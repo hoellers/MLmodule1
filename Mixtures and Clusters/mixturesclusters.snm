@@ -2,3 +2,8 @@
 \beamer@slide {fig:bishopkmeans}{9}
 \beamer@slide {fig:clusterplot}{11}
 \beamer@slide {fig:faithfulplot}{13}
+\beamer@slide {eq:2}{25}
+\beamer@slide {fig:decomposition}{27}
+\beamer@slide {fig:e_step}{32}
+\beamer@slide {fig:m_step}{33}
+\beamer@slide {fig:em_algorithm}{34}
