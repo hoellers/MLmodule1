@@ -1,34 +1,30 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.19)  24 SEP 2018 04:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.23)  24 SEP 2018 09:19
 entering extended mode
 **./mixturesclusters.tex
 (mixturesclusters.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamer.cls"
-Document Class: beamer 2018/09/02 v3.52 A class for typesetting presentations
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamer.cls
+Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasem
-odes.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
-sty"
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemodes.sty
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count79
 )
 \beamer@tempbox=\box26
 \beamer@tempcount=\count80
 \c@beamerpauses=\count81
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbased
-ecode.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasedecode.st
+y
 \beamer@slideinframe=\count82
 \beamer@minimum=\count83
 )
 \beamer@commentbox=\box27
 \beamer@modecount=\count84
-)
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
-ty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 \headdp=\dimen102
 \footheight=\dimen103
@@ -73,27 +69,22 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 \beamer@sectionadjust=\count102
 \beamer@tocsectionnumber=\count103
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseo
-ptions.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
-y"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseoptions.s
+ty ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
 \beamer@paperheight=\skip43
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count104
@@ -109,71 +100,70 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen125
 \Gm@dimlist=\toks15
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
-cfg"))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf
-core.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
-sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
-ics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
-x.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count107
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pg
-fsys.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfr
-cs.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
-futil-common.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+mmon.tex
 \pgfutil@everybye=\toks16
 \pgfutil@tempdima=\dimen128
 \pgfutil@tempdimb=\dimen129
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
-futil-common-lists.tex"))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
-futil-latex.def"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+mmon-lists.tex))
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-la
+tex.def
 \pgfutil@abb=\box34
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+ (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
-frcs.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.cod
+e.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
-pgfsys.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.c
+ode.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
-fkeys.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
+de.tex
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
-fkeysfiltered.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfil
+tered.code.tex
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen130
@@ -186,43 +176,41 @@ fkeysfiltered.code.tex"
 \pgf@yc=\dimen137
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count107
-\c@pgf@countb=\count108
-\c@pgf@countc=\count109
-\c@pgf@countd=\count110
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
 \t@pgf@toka=\toks20
 \t@pgf@tokb=\toks21
 \t@pgf@tokc=\toks22
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
-pgf.cfg"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
-pgfsys-pdftex.def"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-p
+dftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
-pgfsys-common-pdf.def"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-c
+ommon-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
-pgfsyssoftpath.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysso
+ftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count111
-\pgfsyssoftpath@bigbuffer@items=\count112
+\pgfsyssoftpath@smallbuffer@items=\count112
+\pgfsyssoftpath@bigbuffer@items=\count113
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
-pgfsysprotocol.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyspr
+otocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
-.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -236,49 +224,49 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcore.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.c
+ode.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-.code.tex"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-calc.code.tex"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-util.code.tex")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-parser.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+x
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.cod
+e.tex
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.cod
+e.tex)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.c
+ode.tex
 \pgfmath@dimen=\dimen138
-\pgfmath@count=\count113
+\pgfmath@count=\count114
 \pgfmath@box=\box35
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.code.tex"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.basic.code.tex")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.trigonometric.code.tex")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.random.code.tex")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.comparison.code.tex")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.base.code.tex")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.round.code.tex")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.misc.code.tex")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-functions.integerarithmetics.code.tex")))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
-float.code.tex"
-\c@pgfmathroundto@lastzeros=\count114
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.code.tex
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.basic.code.tex)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.trigonometric.code.tex)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.random.code.tex)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.comparison.code.tex)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.base.code.tex)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.round.code.tex)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.misc.code.tex)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.integerarithmetics.code.tex)))
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.co
+de.tex
+\c@pgfmathroundto@lastzeros=\count115
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorepoints.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepo
+ints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen139
 \pgf@picmaxx=\dimen140
@@ -295,111 +283,97 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen151
 \pgf@zy=\dimen152
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorepathconstruct.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen153
 \pgf@path@lasty=\dimen154
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorepathusage.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen155
 \pgf@shorten@start@additional=\dimen156
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorescopes.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresc
+opes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count115
+\pgf@picture@serial@count=\count116
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcoregraphicstate.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregr
+aphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen157
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcoretransformations.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
+ansformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen158
 \pgf@pt@y=\dimen159
 \pgf@pt@temp=\dimen160
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorequick.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequ
+ick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcoreobjects.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreob
+jects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorepathprocessing.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorearrows.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorear
+rows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen161
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcoreshade.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresh
+ade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen162
-\pgf@sys@shading@range@num=\count116
+\pgf@sys@shading@range@num=\count117
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcoreimage.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreim
+age.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcoreexternal.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreex
+ternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box39
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorelayers.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorela
+yers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcoretransparency.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
+ansparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
-gfcorepatterns.code.tex"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+tterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\xxco
-lor.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count117
-\XC@countmixins=\count118
-)
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegsh
-i.sty"
+\XC@nummixins=\count118
+\XC@countmixins=\count119
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
-rr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
-.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.
-sty"
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -416,7 +390,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -437,89 +411,82 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen163
-\Hy@linkcounter=\count119
-\Hy@pagecounter=\count120
+\Hy@linkcounter=\count120
+\Hy@pagecounter=\count121
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.de
-f"
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count121
+\Hy@SavedSpaceFactor=\count122
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.
-cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4383.
-Package hyperref Info: Option `implicit' set `false' on input line 4383.
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4362.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4362.
+Package hyperref Info: Option `implicit' set `false' on input line 4362.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count122
- ("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count123
+
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen164
-\Fld@menulength=\count123
+\Fld@menulength=\count124
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count124
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count125
 
 
 Package hyperref Message: Stopped early.
 
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.d
-ef"
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count125
-\c@bookmark@seq@number=\count126
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfile
-check.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaser
-equires.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasec
-ompatibility.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasef
-ont.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
-ty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaserequires.
+sty
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasecompatibi
+lity.sty)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasefont.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks26
 \symAMSa=\mathgroup4
@@ -527,185 +494,173 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\san
-smathaccent.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\sansmathacc
+ent.sty
 Package: sansmathaccent 2013/03/28
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filehook\filehook.
-sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\filehook\filehook.sty
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaset
-ranslator.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
-tor.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetranslato
+r.sty
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasem
-isc.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaset
-woscreens.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseo
-verlay.sty"
-\beamer@argscount=\count127
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemisc.sty)
+
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetwoscreen
+s.sty)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseoverlay.s
+ty
+\beamer@argscount=\count128
 \beamer@lastskipcover=\skip44
-\beamer@trivlistdepth=\count128
+\beamer@trivlistdepth=\count129
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaset
-itle.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbases
-ection.sty"
-\c@lecture=\count129
-\c@part=\count130
-\c@section=\count131
-\c@subsection=\count132
-\c@subsubsection=\count133
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetitle.sty
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasef
-rame.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasesection.s
+ty
+\c@lecture=\count130
+\c@part=\count131
+\c@section=\count132
+\c@subsection=\count133
+\c@subsubsection=\count134
+)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframe.sty
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
-\beamer@zoomcount=\count134
-\beamer@zoomframecount=\count135
+\beamer@zoomcount=\count135
+\beamer@zoomframecount=\count136
 \beamer@frametextheight=\dimen167
-\c@subsectionslide=\count136
+\c@subsectionslide=\count137
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks27
 \framewidth=\dimen168
-\c@framenumber=\count137
+\c@framenumber=\count138
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasev
-erbatim.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseverbatim.
+sty
 \beamer@verbatimfileout=\write4
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasef
-ramesize.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframesize
+.sty
 \beamer@splitbox=\box43
-\beamer@autobreakcount=\count138
+\beamer@autobreakcount=\count139
 \beamer@autobreaklastheight=\dimen169
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasef
-ramecomponents.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframecomp
+onents.sty
 \beamer@footins=\box44
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasec
-olor.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasen
-otes.sty"
-\beamer@frameboxcopy=\box45
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasecolor.sty
+\beamer@bg@ht=\dimen170
+\beamer@bg@wd=\dimen171
+\beamer@bg@dp=\dimen172
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaset
-oc.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaset
-emplates.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasenotes.sty
+\beamer@frameboxcopy=\box45
+) (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetoc.sty
+)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetemplates
+.sty
 \beamer@sbttoks=\toks30
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasea
-uxtemplates.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseb
-oxes.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseauxtempla
+tes.sty
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseboxes.sty
 \bmb@box=\box46
 \bmb@colorbox=\box47
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen170
-\bmb@dima=\dimen171
-\bmb@dimb=\dimen172
-\bmb@prevheight=\dimen173
+\bmb@temp=\dimen173
+\bmb@dima=\dimen174
+\bmb@dimb=\dimen175
+\bmb@prevheight=\dimen176
 )
-\beamer@blockheadheight=\dimen174
+\beamer@blockheadheight=\dimen177
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasel
-ocalstructure.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.st
-y"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaselocalstru
+cture.sty ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
-\c@figure=\count139
-\c@table=\count140
+\c@figure=\count140
+\c@table=\count141
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasen
-avigation.sty"
-\beamer@section@min@dim=\dimen175
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasenavigatio
+n.sty
+\beamer@section@min@dim=\dimen178
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaset
-heorems.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
-y"
-Package: amsmath 2017/09/02 v2.17a AMS math features
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetheorems.
+sty ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen176
+\ex@=\dimen179
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen177
+\pmbraise@=\dimen180
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count141
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count142
-\leftroot@=\count143
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count144
-\DOTSCASE@=\count145
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+\inf@bad=\count142
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count143
+\leftroot@=\count144
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count145
+\DOTSCASE@=\count146
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen178
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count146
-\c@MaxMatrixCols=\count147
+\big@size=\dimen181
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count147
+\c@MaxMatrixCols=\count148
 \dotsspace@=\muskip11
-\c@parentequation=\count148
-\dspbrk@lvl=\count149
+\c@parentequation=\count149
+\dspbrk@lvl=\count150
 \tag@help=\toks33
-\row@=\count150
-\column@=\count151
-\maxfields@=\count152
+\row@=\count151
+\column@=\count152
+\maxfields@=\count153
 \andhelp@=\toks34
-\eqnshift@=\dimen179
-\alignsep@=\dimen180
-\tagshift@=\dimen181
-\tagwidth@=\dimen182
-\totwidth@=\dimen183
-\lineht@=\dimen184
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
 \@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks36
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2017/10/31 v2.20.4
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks37
 \thm@bodyfont=\toks38
 \thm@headfont=\toks39
@@ -716,173 +671,150 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip56
 \dth@everypar=\toks42
 )
-\c@theorem=\count153
+\c@theorem=\count154
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaset
-hemes.sty"))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamertheme
-default.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerfontt
-hemedefault.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamercolor
-themedefault.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerinner
-themedefault.sty"
-\beamer@dima=\dimen185
-\beamer@dimb=\dimen186
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasethemes.st
+y))
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerthemedefault.
+sty
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerfontthemedefa
+ult.sty)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamercolorthemedef
+ault.sty)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerinnerthemedef
+ault.sty
+\beamer@dima=\dimen188
+\beamer@dimb=\dimen189
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerouter
-themedefault.sty")))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamertheme
-boadilla.sty"
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamercolor
-themerose.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerinner
-themerounded.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamercolor
-themedolphin.sty")
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerouter
-themeinfolines.sty"))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
-y"
-Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerouterthemedef
+ault.sty)))
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerthemeboadilla
+.sty
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamercolorthemeros
+e.sty)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerinnerthemerou
+nded.sty)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamercolorthemedol
+phin.sty)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerouterthemeinf
+olines.sty))
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
-ty"
-Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen187
-\captionmargin@=\dimen188
-\captionwidth=\dimen189
-\caption@tempdima=\dimen190
-\caption@indent=\dimen191
-\caption@parindent=\dimen192
-\caption@hangindent=\dimen193
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen190
+\captionmargin@=\dimen191
+\captionwidth=\dimen192
+\caption@tempdima=\dimen193
+\caption@indent=\dimen194
+\caption@parindent=\dimen195
+\caption@hangindent=\dimen196
 )
-\c@ContinuedFloat=\count154
+\c@ContinuedFloat=\count155
 Package caption Info: beamer document class.
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\was\gensymb.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\was\gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preview\preview.st
-y"
-Package: preview 2017/04/24 11.91 (AUCTeX/preview-latex)
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\luatex85\luatex8
-5.sty"
-Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
-))
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\preview\preview.sty
+Package: preview 2010/02/14 11.90 (AUCTeX/preview-latex)
+)
 \sympureletters=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
 ut line 10.
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty"
-Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2016/07/07 v1.2b Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup7
 \symboldletters=\mathgroup8
 \symboldsymbols=\mathgroup9
 \symboldpureletters=\mathgroup10
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 207.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtool
-s.sty"
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count155
-\calc@Bcount=\count156
-\calc@Adimen=\dimen194
-\calc@Bdimen=\dimen195
+\calc@Acount=\count156
+\calc@Bcount=\count157
+\calc@Adimen=\dimen197
+\calc@Bdimen=\dimen198
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count157
+\calc@Ccount=\count158
 \calc@Cskip=\skip59
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.
-sty"
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count158
-\l_MT_multwidth_dim=\dimen196
+\g_MT_multlinerow_int=\count159
+\l_MT_multwidth_dim=\dimen199
 \origjot=\skip60
-\l_MT_shortvdotswithinadjustabove_dim=\dimen197
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen198
-\l_MT_above_intertext_sep=\dimen199
-\l_MT_below_intertext_sep=\dimen256
-\l_MT_above_shortintertext_sep=\dimen257
-\l_MT_below_shortintertext_sep=\dimen258
+\l_MT_shortvdotswithinadjustabove_dim=\dimen256
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen257
+\l_MT_above_intertext_sep=\dimen258
+\l_MT_below_intertext_sep=\dimen259
+\l_MT_above_shortintertext_sep=\dimen260
+\l_MT_below_shortintertext_sep=\dimen261
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
-sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip61
-\f@nch@O@elh=\skip62
-\f@nch@O@erh=\skip63
-\f@nch@O@olh=\skip64
-\f@nch@O@orh=\skip65
-\f@nch@O@elf=\skip66
-\f@nch@O@erf=\skip67
-\f@nch@O@olf=\skip68
-\f@nch@O@orf=\skip69
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip61
+\f@ncyO@elh=\skip62
+\f@ncyO@erh=\skip63
+\f@ncyO@olh=\skip64
+\f@ncyO@orh=\skip65
+\f@ncyO@elf=\skip66
+\f@ncyO@erf=\skip67
+\f@ncyO@olf=\skip68
+\f@ncyO@orf=\skip69
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirst.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tablefootnote\tabl
-efootnote.sty"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\tablefootnote\tablefootnot
+e.sty
 Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xifthen\xifthen.st
-y"
+ (C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\xifthen\xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
- ("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifmtarg\ifmtarg.st
-y"
-Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\ifmtarg\ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 )))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/02/14 3.18 The Babel package
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
-"
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
-)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2016/04/23 3.9r The Babel package
+
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-russian\russ
-ianb.ldf"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-russian\russianb.ldf
 Language: russian 2017/08/12 1.3j Russian support for the Babel system
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count159
-\U@D=\dimen259
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
-ef")
-LaTeX Info: Redefining \textlatin on input line 1839.
-\bbl@dirlevel=\count160
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count160
+\U@D=\dimen262
+LaTeX Info: Redefining \textlatin on input line 1448.
 )
 
 Package babel Warning: No Cyrillic font encoding has been loaded so far.
@@ -890,53 +822,49 @@ Package babel Warning: No Cyrillic font encoding has been loaded so far.
 (babel)                Default `T2A' encoding will be loaded  on input line 74.
 
 
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.de
-f"
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 )
 Package babel Info: Making " an active character on input line 120.
 Package babel Info: Default for \cyrdash is provided on input line 157.
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
-ish.ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2012/08/20 v3.3p English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.de
-f"
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 LaTeX Font Info:    Redeclaring font encoding T2A on input line 42.
 )
 LaTeX Font Info:    Try loading font information for T2A+cmss on input line 105
 .
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.f
-d"
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -1148,8 +1076,6 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -1170,14 +1096,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -1217,8 +1141,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -1235,8 +1159,8 @@ Now handling font encoding PD1 ...
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t2aenc.dfu"
-File: t2aenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t2aenc.dfu"
+File: t2aenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
@@ -1435,59 +1359,30 @@ File: t2aenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
-sty"
-Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
-\csq@reset=\count161
-\csq@gtype=\count162
-\csq@glevel=\count163
-\csq@qlevel=\count164
-\csq@maxlvl=\count165
-\csq@tshold=\count166
-\csq@ltx@everypar=\toks45
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
-def"
-File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
-cfg"
-File: csquotes.cfg 
-)
-Package csquotes Info: Enabling multilingual quotes.
-Package csquotes Info: Redefining alias 'english' -> 'english/american'.
-)
-Package csquotes Info: Allocating character ".
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
- (mixturesclusters.aux)
+(mixturesclusters.aux)
 \openout1 = `mixturesclusters.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 24.
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1523,163 +1418,157 @@ LaTeX Font Info:    ... okay on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
-ii"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count167
-\scratchdimen=\dimen260
+\scratchcounter=\count161
+\scratchdimen=\dimen263
 \scratchbox=\box53
-\nofMPsegments=\count168
-\nofMParguments=\count169
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count170
-\MPscratchDim=\dimen261
-\MPnumerator=\count171
-\makeMPintoPDFobject=\count172
-\everyMPtoPDFconversion=\toks47
-)
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
-base.sty"
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count164
+\MPscratchDim=\dimen264
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks46
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) ABD: EveryShipout initializing macros
+)
+ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 24.
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitl
-estring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count173
+\c@section@level=\count167
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
- (mixturesclusters.out) (mixturesclusters.out)
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
+
+(mixturesclusters.out) (mixturesclusters.out)
 \@outlinefile=\write5
 \openout5 = `mixturesclusters.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 25.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 25.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 24.
 LaTeX Font Info:    Encoding `OT1' has changed to `T2A' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 25
+(Font)              `pureletters' in the math version `normal' on input line 24
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/mathkerncmss/m/sl --> T2A/cmss/m/it on input line 2
-5.
+4.
 LaTeX Font Info:    Encoding `OT1' has changed to `T2A' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 25.
+(Font)              `pureletters' in the math version `bold' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/bx/sl --> T2A/cmss/m/it on input line 
-25.
+24.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 25.
+(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 25.
+(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 25.
+(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 25.
+(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 25.
+(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 25.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 25.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmr/bx/n on input line 25.
+(Font)                  OT1/cmss/bx/n --> T2A/cmr/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/bx/n --> T2A/cmss/bx/n on input line 25.
+(Font)                  T2A/cmss/bx/n --> T2A/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 25.
+(Font)                  T2A/cmss/m/n --> T2A/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 25.
+(Font)                  T2A/cmss/m/it --> T2A/cmss/bx/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/bx/n on input line 25.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 25.
+(Font)                  T2A/cmtt/m/n --> T2A/cmtt/bx/n on input line 24.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 24.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 25
+(Font)              `pureletters' in the math version `normal' on input line 24
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
-5.
+4.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 25.
+(Font)              `pureletters' in the math version `bold' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T2A/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-25.
+24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 25.
+ut line 24.
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
-tor-basic-dictionary-English.dict"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-basi
+c-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
-tor-bibliography-dictionary-English.dict"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-bibl
+iography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
-tor-environment-dictionary-English.dict"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-envi
+ronment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
-tor-months-dictionary-English.dict"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-mont
+hs-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
-tor-numbers-dictionary-English.dict"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-numb
+ers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\transla
-tor-theorem-dictionary-English.dict"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-theo
+rem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 25.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 25.
+LaTeX Info: Redefining \celsius on input line 24.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 24.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 25.
-Package gensymb Info: Using \Omega for \ohm on input line 25.
+LaTeX Info: Redefining \ohm on input line 24.
+Package gensymb Info: Using \Omega for \ohm on input line 24.
 
 Package gensymb Warning: Not defining \micro.
 
-Package csquotes Info: Redefining character " on input line 25.
 (mixturesclusters.nav)
-Overfull \hbox (8.49736pt too wide) in paragraph at lines 25--25
+Overfull \hbox (8.49736pt too wide) in paragraph at lines 24--24
  [][][][]  
  []
 
@@ -1690,18 +1579,17 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [1
 
-{C:/Users/hoell/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/stnor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [2
 
-]
-<dahl.jpg, id=99, 311.66437pt x 197.23688pt>
+] <dahl.jpg, id=99, 311.66437pt x 197.23688pt>
 File: dahl.jpg Graphic file (type jpg)
-<use dahl.jpg>
-Package pdftex.def Info: dahl.jpg  used on input line 54.
+ <use dahl.jpg>
+Package pdftex.def Info: dahl.jpg used on input line 53.
 (pdftex.def)             Requested size: 239.60567pt x 151.63509pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
@@ -1725,20 +1613,20 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 91.
-
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 91.
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 91.
+line 90.
 
-("C:\Users\hoell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\ot1
-mathkerncmss.fd"
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1mathkern
+cmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
@@ -1762,14 +1650,14 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [8
 
-]
-<bishopkmeans.jpg, id=268, 456.70625pt x 395.4775pt>
+] <bishopkmeans.jpg, id=268, 456.70625pt x 395.4775pt>
 File: bishopkmeans.jpg Graphic file (type jpg)
+
 <use bishopkmeans.jpg>
-Package pdftex.def Info: bishopkmeans.jpg  used on input line 127.
+Package pdftex.def Info: bishopkmeans.jpg used on input line 126.
 (pdftex.def)             Requested size: 239.60567pt x 207.47794pt.
 
-Overfull \vbox (9.1781pt too high) detected at line 127
+Overfull \vbox (9.1781pt too high) detected at line 126
  []
 
 
@@ -1786,11 +1674,10 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [10
 
-]
-<clusterplot.pdf, id=323, 794.97pt x 614.295pt>
+] <clusterplot.pdf, id=323, 794.97pt x 614.295pt>
 File: clusterplot.pdf Graphic file (type pdf)
-<use clusterplot.pdf>
-Package pdftex.def Info: clusterplot.pdf  used on input line 159.
+ <use clusterplot.pdf>
+Package pdftex.def Info: clusterplot.pdf used on input line 158.
 (pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
@@ -1806,11 +1693,10 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [12
 
-]
-<faithfulplot.pdf, id=386, 794.97pt x 614.295pt>
+] <faithfulplot.pdf, id=386, 794.97pt x 614.295pt>
 File: faithfulplot.pdf Graphic file (type pdf)
-<use faithfulplot.pdf>
-Package pdftex.def Info: faithfulplot.pdf  used on input line 185.
+ <use faithfulplot.pdf>
+Package pdftex.def Info: faithfulplot.pdf used on input line 184.
 (pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
@@ -1910,11 +1796,11 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [26
 
-]
-<decomposition.png, id=766, 894.34125pt x 335.75438pt>
+] <decomposition.png, id=766, 894.34125pt x 335.75438pt>
 File: decomposition.png Graphic file (type png)
+
 <use decomposition.png>
-Package pdftex.def Info: decomposition.png  used on input line 364.
+Package pdftex.def Info: decomposition.png used on input line 363.
 (pdftex.def)             Requested size: 239.60567pt x 89.953pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
@@ -1938,11 +1824,6 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 [29
 
 ]
-Overfull \hbox (6.00432pt too wide) detected at line 395
-[]
- []
-
-
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1956,11 +1837,10 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [31
 
-]
-<e_step.png, id=903, 864.22874pt x 319.94531pt>
+] <e_step.png, id=903, 864.22874pt x 319.94531pt>
 File: e_step.png Graphic file (type png)
-<use e_step.png>
-Package pdftex.def Info: e_step.png  used on input line 416.
+ <use e_step.png>
+Package pdftex.def Info: e_step.png used on input line 415.
 (pdftex.def)             Requested size: 239.60567pt x 88.70042pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
@@ -1969,11 +1849,11 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [32
 
- <./e_step.png>]
-<m_step.png, id=932, 890.5772pt x 429.10312pt>
+ <./e_step.png>] <m_step.png, id=932, 890.5772pt x 429.10312pt>
 File: m_step.png Graphic file (type png)
+
 <use m_step.png>
-Package pdftex.def Info: m_step.png  used on input line 428.
+Package pdftex.def Info: m_step.png used on input line 427.
 (pdftex.def)             Requested size: 239.60567pt x 115.44688pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
@@ -1982,11 +1862,11 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [33
 
- <./m_step.png>]
-<em_algorithm.png, id=961, 838.63312pt x 391.4625pt>
+ <./m_step.png>] <em_algorithm.png, id=961, 838.63312pt x 391.4625pt>
 File: em_algorithm.png Graphic file (type png)
+
 <use em_algorithm.png>
-Package pdftex.def Info: em_algorithm.png  used on input line 440.
+Package pdftex.def Info: em_algorithm.png used on input line 439.
 (pdftex.def)             Requested size: 239.60567pt x 111.84273pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
@@ -2103,52 +1983,47 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `mixturesclusters.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 629.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 629.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 628.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 628.
  (mixturesclusters.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 629.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 629.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 628.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 628.
 Package rerunfilecheck Info: File `mixturesclusters.out' has not changed.
 (rerunfilecheck)             Checksum: 803B6C989A35EE5AD26B7B2E64A86F06;347.
  ) 
 Here is how much of TeX's memory you used:
- 21469 strings out of 493305
- 399317 string characters out of 3129802
- 485270 words of memory out of 3000000
- 24363 multiletter control sequences out of 15000+200000
+ 20811 strings out of 493333
+ 382583 string characters out of 3139194
+ 463618 words of memory out of 3000000
+ 23703 multiletter control sequences out of 15000+200000
  35811 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,57p,804b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\hoell\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
-sx1000.pk> <C:\Users\hoell\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
-pi600\lasx0800.pk> <C:\Users\hoell\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
-lh-t2a\dpi600\lasx1095.pk> <C:\Users\hoell\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\lh\lh-t2a\dpi600\lass0800.pk> <C:\Users\hoell\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\lh\lh-t2a\dpi600\lasi1095.pk> <C:\Users\hoell\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1000.pk> <C:\Users\hoell\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass0600.pk> <C:\Users\hoell\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1095.pk> <C:\Users\ho
-ell\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lass1440.pk><C:/U
-sers/hoell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb><C:/Users/hoell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><C:/Users/hoell/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/hoell/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/hoell/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/hoell/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Us
-ers/hoell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss
-8.pfb><C:/Users/hoell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmssi10.pfb><C:/Users/hoell/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmssi8.pfb><C:/Users/hoell/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hoell/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/hoell/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:
-/Users/hoell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msam7.pfb><C:/Users/hoell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb>
-Output written on mixturesclusters.pdf (48 pages, 984974 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+si10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/cm-super/sfsi1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/cm-super/sfss0600.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/cm-super/sfss0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-su
+per/sfss1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1
+095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1440.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx0800.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on mixturesclusters.pdf (48 pages, 991447 bytes).
 PDF statistics:
- 1729 PDF objects out of 2073 (max. 8388607)
+ 1454 PDF objects out of 1728 (max. 8388607)
  112 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

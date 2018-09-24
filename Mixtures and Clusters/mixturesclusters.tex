@@ -16,8 +16,7 @@
 \usepackage[russian, english]{babel}
 \usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage [autostyle, english = american]{csquotes}
-\MakeOuterQuote{"}
+
 
 \title{Clustering, Mixtures, and the EM Algorithm}
 \subtitle{Machine Learning: Module 1}
@@ -133,14 +132,14 @@
 	\begin{itemize}
 		\item Choosing $k$: this requires trying a lot of different $k$ w.r.t. some similarity measure
 			\begin{itemize}
-				\item Plot the WCSS against the number of clusters, and look for a "bend" in the plot; this is known as the elbow method
+				\item Plot the WCSS against the number of clusters, and look for a ``bend" in the plot; this is known as the elbow method
 				\item Use average silhouette width: the silhouette is a measure how similar an observation is to its own cluster (consistency) and how dissimilar it is to other clusters (separation)
 				\item Gap statistics: compare multiple values of $k$ to a simulated reference distribution of datasets with clusters varying from $k=1$ to $k=max$
 			\end{itemize}
 		\item Sensitivity to outliers; luckily, there are clustering methods other than $k$-means
 			\begin{itemize}
 				\item Partitioning around medoids (PAM): uses median instead of mean
-				\item Hierarchical clustering: creates a tree-based representation of the data without specifying $k$; clusters are created by "cutting" the tree.  
+				\item Hierarchical clustering: creates a tree-based representation of the data without specifying $k$; clusters are created by ``cutting" the tree.  
 			\end{itemize}
 		\item Fundamentally descriptive; clusters will not necessarily be the same given different data
 	\end{itemize}
@@ -162,7 +161,7 @@
 
 \begin{frame}
 \frametitle{Mixture Models: Motivation}
-	What if instead of "hard" cluster assignments, we could assign a probability that cases belong to a particular group?\\
+	What if instead of ``hard" cluster assignments, we could assign a probability that cases belong to a particular group?\\
 	That is precisely what \textit{mixture models} are intended to do!\\
 	Mixture models allow observations to belong to different distributions - either different parameterizations of the same distribution, or different distributions entirely.\\
 	This allows us to:
@@ -259,8 +258,8 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 	
 	Where the mean of group $k$ is the mean of each observation in the group, weighted by the posterior probability of its membership in that group:
 	\begin{align*}
-		 \mu_k &= \frac{1}{N_k} \sum_{n=1}{N} \gamma(z_{nk})x_n \\
-		 N_k &= \sum_{n=1} \gamma({z_{nk}}) = \text{\# of points in cluster k}
+		 \mu_k &= \frac{1}{N_k} \sum_{n=1}^{N} \gamma(z_{nk})x_n \\
+		 N_k &= \sum_{n=1}^{N} \gamma({z_{nk}}) = \text{\# of points in cluster k}
 	\end{align*}
 	
 \end{frame}
@@ -269,7 +268,7 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 \frametitle{Attempting Vanilla MLE}	
 	Similarly, the covariance is given by:
 	\begin{align*}
-	\Sigma_k = \frac{1}{N_k} \sum_{n=1}{N} \gamma(z_{nk})(x_n - \mu_k)(x_n - \mu_k)^\intercal
+	\Sigma_k = \frac{1}{N_k} \sum_{n=1}^{N} \gamma(z_{nk})(x_n - \mu_k)(x_n - \mu_k)^\intercal
 	\end{align*}
 	And the mixing coefficients are (intuitively):
 	\begin{align*}
@@ -283,7 +282,7 @@ Do this terms look familiar? How would you put this in terms of the joint PDF we
 	\item As can be seen from the previous partial derivatives, the mean and variance of the GMM estimates depend on the posterior probabilities, which themselves depend on the mean and variance. Therefore, there is not a closed form solution.
 	\item Because we now have multiple components, a situation can arise where a component collapses on a single point when an observation is equal to the component mean, contributing infinitely to the log likelihood:
 	\begin{align*}
-	&\mathcal{N}(x_n|\mu_k, \Sigma_j) = \frac{1}{2\pi^{\frac{1}{2}}}\frac{1}{\sigma_j}\\ 
+	&\mathcal{N}(x_n|\mu_k = x_n, \Sigma_j) = \frac{1}{2\pi^{\frac{1}{2}}}\frac{1}{\sigma_j}\\ 
 	&\lim_{\sigma_j \to \infty} = \infty
 	\end{align*}
 \end{itemize}
@@ -550,7 +549,7 @@ We can apply the above discussion to find relatively easy parameter estimates fo
 	And a mixture of Bernoullis is:
 	
 	\begin{align*}
-		p(x|\mu, \pi) = \sum_{k=1}^{K}p(x|\mu_k) 
+		p(x|\mu, \pi) = \sum_{k=1}^{K} \pi_k p(x|\mu_k) 
 	\end{align*}
 \end{frame}
 
