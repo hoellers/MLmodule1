@@ -13,9 +13,7 @@
 \usepackage{indentfirst}
 \usepackage{tablefootnote}
 %\usepackage{cmbright}
-\usepackage[russian, english]{babel}
-\usepackage[T1,T2A]{fontenc}
-\usepackage[utf8]{inputenc}
+
 
 
 \title{Clustering, Mixtures, and the EM Algorithm}
@@ -219,7 +217,7 @@ This is a Gaussian mixture model (GMM)
  \begin{frame}
  \frametitle{Deriving the Model}
  
- 	The joint distribution $(\mathbf{x} | \mathbf{z})$ is then:
+ 	The joint distribution is then:
 
  	\begin{align*}
  	p(x,z) = \prod_{n = 1}^{N} \prod_{k = 1}^{K} \pi_k^{z_{nk}} \mathcal{N}(x_n | \mu_k, \Sigma_k)^{z_nk}
