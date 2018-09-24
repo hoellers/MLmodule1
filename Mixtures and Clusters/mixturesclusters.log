@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.23)  24 SEP 2018 09:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.23)  24 SEP 2018 11:31
 entering extended mode
 **./mixturesclusters.tex
 (mixturesclusters.tex
@@ -1586,26 +1586,26 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [2
 
-] <dahl.jpg, id=99, 311.66437pt x 197.23688pt>
-File: dahl.jpg Graphic file (type jpg)
- <use dahl.jpg>
-Package pdftex.def Info: dahl.jpg used on input line 53.
-(pdftex.def)             Requested size: 239.60567pt x 151.63509pt.
-
+]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [3
 
- <./dahl.jpg>]
+] <dahl.jpg, id=125, 311.66437pt x 197.23688pt>
+File: dahl.jpg Graphic file (type jpg)
+ <use dahl.jpg>
+Package pdftex.def Info: dahl.jpg used on input line 61.
+(pdftex.def)             Requested size: 239.60567pt x 151.63509pt.
+
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [4
 
-]
+ <./dahl.jpg>]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1613,23 +1613,6 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 90.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 90.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 90.
-
-(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1mathkern
-cmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1637,6 +1620,23 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 [6
 
 ]
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 98.
+
+(C:\Users\stnor\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1mathkern
+cmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1650,69 +1650,69 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [8
 
-] <bishopkmeans.jpg, id=268, 456.70625pt x 395.4775pt>
-File: bishopkmeans.jpg Graphic file (type jpg)
-
-<use bishopkmeans.jpg>
-Package pdftex.def Info: bishopkmeans.jpg used on input line 126.
-(pdftex.def)             Requested size: 239.60567pt x 207.47794pt.
-
-Overfull \vbox (9.1781pt too high) detected at line 126
- []
-
-
+]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [9
 
- <./bishopkmeans.jpg>]
+] <bishopkmeans.jpg, id=294, 456.70625pt x 395.4775pt>
+File: bishopkmeans.jpg Graphic file (type jpg)
+
+<use bishopkmeans.jpg>
+Package pdftex.def Info: bishopkmeans.jpg used on input line 134.
+(pdftex.def)             Requested size: 239.60567pt x 207.47794pt.
+
+Overfull \vbox (9.1781pt too high) detected at line 134
+ []
+
+
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [10
 
-] <clusterplot.pdf, id=323, 794.97pt x 614.295pt>
-File: clusterplot.pdf Graphic file (type pdf)
- <use clusterplot.pdf>
-Package pdftex.def Info: clusterplot.pdf used on input line 158.
-(pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
-
+ <./bishopkmeans.jpg>]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [11
 
- <./clusterplot.pdf>]
-Overfull \hbox (8.49736pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[12
-
-] <faithfulplot.pdf, id=386, 794.97pt x 614.295pt>
-File: faithfulplot.pdf Graphic file (type pdf)
- <use faithfulplot.pdf>
-Package pdftex.def Info: faithfulplot.pdf used on input line 184.
+] <clusterplot.pdf, id=349, 794.97pt x 614.295pt>
+File: clusterplot.pdf Graphic file (type pdf)
+ <use clusterplot.pdf>
+Package pdftex.def Info: clusterplot.pdf used on input line 166.
 (pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
+[12
+
+ <./clusterplot.pdf>]
+Overfull \hbox (8.49736pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [13
 
- <./faithfulplot.pdf>]
+] <faithfulplot.pdf, id=413, 794.97pt x 614.295pt>
+File: faithfulplot.pdf Graphic file (type pdf)
+ <use faithfulplot.pdf>
+Package pdftex.def Info: faithfulplot.pdf used on input line 192.
+(pdftex.def)             Requested size: 239.60567pt x 185.15227pt.
+
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [14
 
-]
+ <./faithfulplot.pdf>]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1796,27 +1796,27 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [26
 
-] <decomposition.png, id=766, 894.34125pt x 335.75438pt>
-File: decomposition.png Graphic file (type png)
-
-<use decomposition.png>
-Package pdftex.def Info: decomposition.png used on input line 363.
-(pdftex.def)             Requested size: 239.60567pt x 89.953pt.
-
+]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [27
 
- <./decomposition.png>]
+] <decomposition.png, id=792, 894.34125pt x 335.75438pt>
+File: decomposition.png Graphic file (type png)
+
+<use decomposition.png>
+Package pdftex.def Info: decomposition.png used on input line 371.
+(pdftex.def)             Requested size: 239.60567pt x 89.953pt.
+
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [28
 
-]
+ <./decomposition.png>]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1837,24 +1837,18 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [31
 
-] <e_step.png, id=903, 864.22874pt x 319.94531pt>
-File: e_step.png Graphic file (type png)
- <use e_step.png>
-Package pdftex.def Info: e_step.png used on input line 415.
-(pdftex.def)             Requested size: 239.60567pt x 88.70042pt.
-
+]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [32
 
- <./e_step.png>] <m_step.png, id=932, 890.5772pt x 429.10312pt>
-File: m_step.png Graphic file (type png)
-
-<use m_step.png>
-Package pdftex.def Info: m_step.png used on input line 427.
-(pdftex.def)             Requested size: 239.60567pt x 115.44688pt.
+] <e_step.png, id=929, 864.22874pt x 319.94531pt>
+File: e_step.png Graphic file (type png)
+ <use e_step.png>
+Package pdftex.def Info: e_step.png used on input line 423.
+(pdftex.def)             Requested size: 239.60567pt x 88.70042pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
@@ -1862,12 +1856,12 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [33
 
- <./m_step.png>] <em_algorithm.png, id=961, 838.63312pt x 391.4625pt>
-File: em_algorithm.png Graphic file (type png)
+ <./e_step.png>] <m_step.png, id=958, 890.5772pt x 429.10312pt>
+File: m_step.png Graphic file (type png)
 
-<use em_algorithm.png>
-Package pdftex.def Info: em_algorithm.png used on input line 439.
-(pdftex.def)             Requested size: 239.60567pt x 111.84273pt.
+<use m_step.png>
+Package pdftex.def Info: m_step.png used on input line 435.
+(pdftex.def)             Requested size: 239.60567pt x 115.44688pt.
 
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
@@ -1875,14 +1869,20 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 
 [34
 
- <./em_algorithm.png>]
+ <./m_step.png>] <em_algorithm.png, id=987, 838.63312pt x 391.4625pt>
+File: em_algorithm.png Graphic file (type png)
+
+<use em_algorithm.png>
+Package pdftex.def Info: em_algorithm.png used on input line 447.
+(pdftex.def)             Requested size: 239.60567pt x 111.84273pt.
+
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [35
 
-]
+ <./em_algorithm.png>]
 Overfull \hbox (8.49736pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1974,6 +1974,13 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 [48
 
 ]
+Overfull \hbox (8.49736pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[49
+
+]
 \tf@nav=\write6
 \openout6 = `mixturesclusters.nav'.
 
@@ -1983,22 +1990,22 @@ Overfull \hbox (8.49736pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `mixturesclusters.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 628.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 628.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 636.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 636.
  (mixturesclusters.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 628.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 628.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 636.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 636.
 Package rerunfilecheck Info: File `mixturesclusters.out' has not changed.
 (rerunfilecheck)             Checksum: 803B6C989A35EE5AD26B7B2E64A86F06;347.
  ) 
 Here is how much of TeX's memory you used:
- 20811 strings out of 493333
- 382583 string characters out of 3139194
+ 20815 strings out of 493333
+ 382620 string characters out of 3139194
  463618 words of memory out of 3000000
- 23703 multiletter control sequences out of 15000+200000
+ 23705 multiletter control sequences out of 15000+200000
  35811 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,57p,804b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,15n,55p,804b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
@@ -2021,9 +2028,9 @@ per/sfss1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx0800.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on mixturesclusters.pdf (48 pages, 991447 bytes).
+Output written on mixturesclusters.pdf (49 pages, 997292 bytes).
 PDF statistics:
- 1454 PDF objects out of 1728 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
+ 1481 PDF objects out of 1728 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
